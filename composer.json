@@ -1,0 +1,19 @@
+{
+	"name": "rokde/string-formatter",
+	"description": "A pattern-based string formatter",
+	"keywords": ["php", "string", "pattern", "format"],
+	"license": "MIT",
+	"type": "library",
+	"require": {
+		"php": ">=5.5.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"Rokde\\StringFormatter\\": "src/"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
